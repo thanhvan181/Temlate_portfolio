@@ -1,0 +1,291 @@
+* {
+  color: #000;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Heebo", sans-serif;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+/* =============== Header ==========*/
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header-menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  margin: 25px 0;
+}
+
+.header .header-menu__list li {
+  padding: 0 15px;
+}
+
+.header .header-menu__list li a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* =============== Banner ==========*/
+.banner {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 115px;
+}
+
+.banner .banner-heading {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+.banner .banner-heading span {
+  display: block;
+  color: #7200d0;
+}
+
+.banner .banner-desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 70%;
+}
+
+.banner .button-download {
+  padding: 12px 24px;
+  background-color: #7200d0;
+  cursor: pointer;
+  border: none;
+  margin-top: 40px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.banner .button-download:hover {
+  background-color: #460f74;
+}
+
+.banner .banner-img img {
+  width: 243px;
+  height: 243px;
+  border-radius: 50%;
+  border: 2px solid #460f74;
+}
+
+/* =============== Recent Posts ==========*/
+.recent-posts__wrapper {
+  background-color: #edf7fa;
+  padding: 30px 0;
+}
+
+.recent-posts__wrapper .recent-posts__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+}
+
+.recent-posts__wrapper .recent-posts__head span {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.recent-posts__wrapper .recent-posts__head a {
+  text-decoration: none;
+  color: #00a8cc;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  font-size: 16px;
+}
+
+.recent-posts__wrapper .recent-posts__head a:hover {
+  text-decoration: underline;
+}
+
+.recent-posts__wrapper .posts__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+}
+
+.recent-posts__wrapper .posts__list .posts__item {
+  padding: 24px;
+  background-color: #fff;
+}
+
+.recent-posts__wrapper .posts__list .posts__item h3 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.recent-posts__wrapper .posts__list .posts__item .posts__item--body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+  font-weight: 400;
+}
+
+.recent-posts__wrapper .posts__list .posts__item .posts__item--body span {
+  display: block;
+  border-right: 1px solid #000;
+  padding-right: 40px;
+}
+
+/* =============== Feature work ==========*/
+.feature-works {
+  padding: 20px 0 40px;
+}
+
+.feature-works .feature-title {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.feature-works .feature-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.feature-works .feature-list .feature-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+  padding: 10px 0 14px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.feature-works .feature-list .feature-item .feature-item__content h3 {
+  margin: 0;
+}
+
+.feature-works .feature-list .feature-item .feature-item__content h3 a {
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.feature-works .feature-list .feature-item .feature-item__info {
+  margin: 26px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.feature-works .feature-list .feature-item .feature-item__info span {
+  padding: 6px 10px;
+  border-radius: 16px;
+  background-color: #142850;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.feature-works .feature-list .feature-item .feature-item__info a {
+  font-size: 20px;
+  font-weight: 400;
+  color: #8695a4;
+  text-decoration: none;
+}
+
+.feature-works .feature-list .feature-item .feature-item__desc {
+  padding-bottom: 20px;
+}
+
+.footer {
+  padding: 50px 0;
+}
+
+.footer .footer-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 35px;
+}
+
+.footer .footer-copyright {
+  text-align: center;
+  margin-top: 26px;
+}
+/*# sourceMappingURL=style.css.map */
